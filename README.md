@@ -1,1 +1,1 @@
-# https://skarlettherreravargas.github.io
+# skarlettherreravargas.github.io
