@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b0f19;
+    color: #f57206;
+    line-height: 1.6;
+}
+
+/* Encabezado y Navegación */
+header {
+    text-align: center;
+    padding: 30px 15px 10px 15px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #95b6e0;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #2d343b;
+    padding: 12px;
+    border-radius: 6px;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+nav a {
+    color: #f8f6f6;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #070606;
+}
+
+/* Contenido Principal (Basado en la captura) */
+main {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 0 15px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #0051dd;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin: 15px 0 8px 0;
+    color: #a86602;
+}
+
+p {
+    margin-bottom: 10px;
+    color: #f0f3f7;
+    font-size: 0.95rem;
+}
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: #a5a8aa;
+    font-size: 0.95rem;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+/* Banner de Imagen */
+.banner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.caption {
+    font-size: 0.85rem;
+    color: #34c247;
+    margin-top: 6px;
+}
+
+/* Tabla de Contraseñas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 0.9rem;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #0b57da;
+}
+
+th {
+    background-color: #4b4b4e;
+}
+
+.badge-bajo {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.badge-medio {
+    color: #d5f80b;
+    font-weight: bold;
+}
+
+.badge-alto {
+    color: #04f004;
+    font-weight: bold;
+}
+
+/* Caja de Advertencia */
+.alert-box {
+    background-color: #1a202c;
+    border-left: 4px solid #e53e3e;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.alert-box h4 {
+    color: #fc8181;
+    margin-bottom: 6px;
+}
+
+/* Enlaces y Pie de página */
+a {
+    color: #63b3ed;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #2d3748;
+    margin: 20px 0;
+}
+
+footer {
+    font-size: 0.85rem;
+    color: #1270eb;
+    line-height: 1.4;
+}
